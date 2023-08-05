@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta pagina web me ayudara a comprender el uso de las diferentes etiquetas>
+    <link rel="stylesheet" href="ccs/styles.css">
+    <link rel="icon" href="img/icon.ico">
+    <title>Esta es mi pagina web</title>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <h3>Listas ordenadas</h3>
+    <div>
+        <ol>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+            <li>F</li>
+        </ol>
+    </div>
+    <h3>Listas desordenadas</h3>
+    <div>
+        <ul>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+            <li>F</li>
+        </ul>
+    </div>
+    <h3>Listas de descripción</h3>
+    <div>
+        <dl>
+            <dt>Término 1</dt>
+            <dd>Descripción 1</dd>
+            <dt>Término 2</dt>
+            <dd>Descripción 2</dd>
+            <dt>Término 3</dt>
+            <dd>Descripción 2</dd>
+          </dl>
+    </div>
+
+    <h3>tabla con 3 columnas y 4 filas</h3>
+    <div>
+        <table border="1">
+            <tr>
+                <td colspan="2">Celda que abarca 2 columnas</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+              </tr>
+        </table>
+    </div>
+
+        <h1>Inicio de sesion</h1>
+        <form action="home.html" method="post" onsubmit="validarLogin(event)">
+            <label for="userbane">usuario</label>
+            <input id="username" name="username" type="text" required>
+            <label for="password">contrasena</label>
+            <input id="password" name="password" type="password" required>
+            <button type="submit">iniciar sesion </button>
+        </form>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

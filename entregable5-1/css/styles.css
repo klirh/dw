@@ -1,0 +1,124 @@
+nav{
+    display: flex;
+    justify-content: end;
+
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px; 
+    display: inline-block;
+    width: 5%;  
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bolder
+    
+    
+    
+    }
+
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+    
+    border: solid 1px;
+    border-radius: 10%;
+    
+}
+
+nav li{
+    display: inline-block;
+    width: 10%;
+}
+.img-logo{
+    width: 10%;
+
+}
+
+.flecha{
+    margin: 20px 0px 0px 80px;
+}
+
+.img-angel {
+    background-image: url("https://raw.githubusercontent.com/klirh/dw/main/Mexico-City.jpg");
+    background-size: cover;
+    display: flex;
+    height: 338px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    
+    padding: 5px;
+    width: 30%;
+    height: 80%;
+}
+
+p{
+    color:white;
+    margin:1px; 
+    font-family: sans-serif;
+}
+
+
+.t1{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-size:30px;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+
+.t2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size:15px;
+    text-align: end;
+   
+}
+
+.t3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    
+    font-size:50px;
+    font-weight: bold;
+    
+}
+
+.t4{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    
+    font-size:20px;
+}
+
+footer p{
+    color: black;
+    text-align: center;
+}
+.p1{
+    color: gold;
+    font-weight: bold;
+    
+}
+
+.p2{
+    
+}
+
+
+.p3{
+    
+}
+/*
+
+  .texto1{
+    font-size: 20px;
+    font-weight: bolder;
+}*/
